@@ -1,24 +1,24 @@
 {
-  "name": "GP-Wordcloud",
-  "logoUrl": "",
-  "organization": "GP-test",
-  "organizationUrl": "https://www.goldenplanet.co.kr/",
-  "termsOfServiceUrl": "https://www.goldenplanet.co.kr/",
-  "supportUrl": "https://www.goldenplanet.co.kr/",
-  "packageUrl": "https://www.goldenplanet.co.kr/",
-  "privacyPolicyUrl": "https://www.goldenplanet.co.kr/",
-  "description": "GP Test viz",
+  "name": "GP Test com viz",
+  "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
+  "organization": "Seop Test",
+  "organizationUrl": "https://github.com/seopject/looker-studio-custom",
+  "termsOfServiceUrl": "https://github.com/seopject/looker-studio-custom",
+  "supportUrl": "https://github.com/seopject/looker-studio-custom",
+  "packageUrl": "https://github.com/seopject/looker-studio-custom",
+  "privacyPolicyUrl": "https://github.com/seopject/looker-studio-custom",
+  "description": "Seop Test",
   "devMode": true,
   "components": [
       {
           "id": "tableChart",
           "name": "Table",
           "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
-          "description": "A simple table chart for GP Testing",
+          "description": "A simple table chart",
           "resource": {
-              "js": "gs://seop-test-viz/test-viz/viz-codelab.js",
-              "config": "gs://seop-test-viz/test-viz/viz-codelab.json",
-              "css": "gs://seop-test-viz/test-viz/viz-codelab.css"
+              "js": "gs://commu-viz-test/test-viz/viz-codelab.js",
+              "config": "gs://commu-viz-test/test-viz/viz-codelab.json",
+              "css": "gs://commu-viz-test/test-viz/viz-codelab.css"
           }
       }
   ]
