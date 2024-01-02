@@ -1,24 +1,24 @@
 {
-  "name": "GP Test com viz",
-  "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
+  "name": "seop-wordcloud",
+  "logoUrl": "",
   "organization": "Seop Test",
   "organizationUrl": "https://github.com/seopject/looker-studio-custom",
   "termsOfServiceUrl": "https://github.com/seopject/looker-studio-custom",
   "supportUrl": "https://github.com/seopject/looker-studio-custom",
   "packageUrl": "https://github.com/seopject/looker-studio-custom",
   "privacyPolicyUrl": "https://github.com/seopject/looker-studio-custom",
-  "description": "Seop Test",
+  "description": "Seop Test Wordcloud",
   "devMode": true,
   "components": [
       {
-          "id": "tableChart",
-          "name": "Table",
+          "id": "wordCloudTest",
+          "name": "WordCloud Test",
           "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
-          "description": "A simple table chart",
+          "description": "WordCloud Test",
           "resource": {
-              "js": "gs://commu-viz-test/test-viz/viz-codelab.js",
-              "config": "gs://commu-viz-test/test-viz/viz-codelab.json",
-              "css": "gs://commu-viz-test/test-viz/viz-codelab.css"
+              "js": "gs://commu-viz-test/word-cloud/wordcloud.js",
+              "config": "gs://commu-viz-test/word-cloud/wordcloud.json",
+              "css": "gs://commu-viz-test/word-cloud/wordcloud.css"
           }
       }
   ]

@@ -2,11 +2,11 @@
   "data": [
       {
           "id": "concepts",
-          "label": "Concepts",
+          "label": "WordClould: 테스트 중",
           "elements": [
               {
                   "id": "tableDimension",
-                  "label": "Dimension",
+                  "label": "Worldclould: 측정기준",
                   "type": "DIMENSION",
                   "options": {
                       "min": 1,
@@ -15,7 +15,7 @@
               },
               {
                   "id": "tableMetric",
-                  "label": "Metric",
+                  "label": "WorldCould: 측정항목",
                   "type": "METRIC",
                   "options": {
                       "min": 1,
@@ -28,13 +28,13 @@
   "style": [
       {
           "id": "header",
-          "label": "Table Header",
+          "label": "WordClould: 헤더",
           "elements": [
               {
                   "type": "FILL_COLOR",
                   "id": "headerBg",
                   "label": "Header Background Color",
-                  "defaultValue": "#e0e0e0"
+                  "defaultValue": "#A16464"
               }
           ]
       }

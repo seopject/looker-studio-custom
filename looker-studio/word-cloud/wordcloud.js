@@ -35,6 +35,18 @@ function drawViz(data) {
     container.id = 'container'
     document.body.appendChild(container);
   }
+  // Create the title.
+  const testText = document.createElement('h1');
+  testText.textContent = 'kskim - wordcloud Test'
+
+  // Create Wordcloud Box
+  const wordCloud = document.createElement('div')
+  data.tables.DEFAULT.rows.forEach(function(row) {
+    const text = document.createElement('span');
+    // ex) page_view,1423
+    text.textContent = row
+    wordCloud.appendChild(text)
+  })
 
   // Create the table.
   const table = document.createElement('table');
@@ -67,6 +79,8 @@ function drawViz(data) {
   tableHeader.style.backgroundColor = data.style.headerBg.value.color;
 
   // Render the table.
+  container.appendChild(testText)
+  container.appendChild(wordCloud)
   container.appendChild(table);
 
 }
