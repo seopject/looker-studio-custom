@@ -1,5 +1,5 @@
 {
-    "name": "seop-wordcloud",
+    "name": "top-N%-table",
     "logoUrl": "",
     "organization": "Seop Test",
     "organizationUrl": "https://github.com/seopject/looker-studio-custom",
@@ -7,20 +7,19 @@
     "supportUrl": "https://github.com/seopject/looker-studio-custom",
     "packageUrl": "https://github.com/seopject/looker-studio-custom",
     "privacyPolicyUrl": "https://github.com/seopject/looker-studio-custom",
-    "description": "Seop Test Wordcloud",
+    "description": "top-N%-table Test",
     "devMode": true,
     "components": [
         {
-            "id": "wordCloudTest",
-            "name": "WordCloud Test",
+            "id": "top-N%-table",
+            "name": "top-N%-table Test",
             "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
-            "description": "WordCloud Test",
+            "description": "top-N%-table Test",
             "resource": {
-                "js": "gs://commu-viz-test/word-cloud/wordcloud.js",
-                "config": "gs://commu-viz-test/word-cloud/wordcloud.json",
-                "css": "gs://commu-viz-test/word-cloud/wordcloud.css"
+                "js": "gs://commu-viz-test/top-percent-table/top-percent-table.js",
+                "config": "gs://commu-viz-test/top-percent-table/top-percent-table.json",
+                "css": "gs://commu-viz-test/top-percent-table/top-percent-table.css"
             }
         }
     ]
   }
-  
